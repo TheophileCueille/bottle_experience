@@ -1,0 +1,9 @@
+.shop{
+	display: block;
+}
+
+.shop i{
+	color: black;
+	font-size: 18px;
+	letter-spacing: 10px;
+}

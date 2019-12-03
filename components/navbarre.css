@@ -1,0 +1,33 @@
+.navbarre {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	position: sticky;
+	padding: 5px;
+	top: 25px;
+	z-index: 1;
+	background-color: white;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.navbarre h2 {
+	font-size: 20px;
+}
+
+.navbarre a {
+	color: black;
+	text-decoration: none;
+	transition: 1s;
+	height: 60px;
+	width: 180px;
+	padding: 0px 10px;
+	text-align: center;
+}
+
+.navbarre a:hover {
+	color: white;
+	transition: .5s;
+	background-color: #6a0c0c;
+}
+

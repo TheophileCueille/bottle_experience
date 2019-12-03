@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Arizonia|Calligraffitti|Cinzel|Quicksand|Vidaloka&display=swap");
+@import url("components/menu.css");
+@import url("components/shop.css");
+@import url("components/topbarre.css");
+@import url("components/navbarre.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/carrousel.css");
+@import url("components/contenu.css");
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+
+.lien_contenu{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+

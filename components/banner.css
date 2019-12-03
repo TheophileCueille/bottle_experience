@@ -1,0 +1,12 @@
+.banner{
+	display: block;
+	padding: 5px;
+	text-align: center;
+}
+ #logo{
+ 	width:75px;
+
+ }
+ #name{
+ 	width: 175px;
+ }

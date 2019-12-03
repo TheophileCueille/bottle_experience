@@ -1,0 +1,97 @@
+.contenu {
+	display: block;
+	position: relative;
+	height: 650px;
+	width: 97%;
+	overflow: hidden;
+	margin: 10px auto;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.contenu_conseil{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 350px;
+	width: 100%;
+	left: 0;
+}
+
+.article_1{
+	background-image: url("images-components/conseil_1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.article_1:hover {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.a_1{
+	text-align: center;	
+	padding-top: 125px;
+}
+
+
+
+
+.article_2{
+	background-image: url("images-components/conseil_2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+
+.article_2:hover {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.a_2{
+	padding-top: 125px;
+	text-align: center;
+	
+}
+
+.a_1, .a_2 {
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+.histoire{
+	display: block;
+	position: relative;
+	height: 150px;	
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.artisan{
+	display: block;
+	position: relative;
+	height: 150px;	
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	border-top: 1px solid #e5e5e5;
+	
+}

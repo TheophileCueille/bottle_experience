@@ -1,0 +1,11 @@
+.menu{
+	display: block;
+}
+
+.menu i{
+	top:0px;
+	margin-left: 0px;
+	position:sticky;
+	font-size: 18px;
+	color: black;
+}
